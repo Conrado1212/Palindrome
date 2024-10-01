@@ -1,0 +1,48 @@
+:root{
+    /*Colors*/
+    --white-color:#fff;
+     /*fonts*/
+     --body-font: sans-serif;
+     --body-font-size: 15px;
+     --body-line-height: 1.5;
+     --title-font-size: 2.55rem;
+      /*font-weights*/
+      --font-h: 800;
+      --font-m: 600;
+       /*letter spaciong*/
+    --letter-1:1px;
+    /*z-index*/
+    --z-index:100;
+    /*tansition*/
+    --tran-03:  0.3s ease all;
+}
+body{
+    box-sizing: border-box;
+    font-family: var(--body-font);
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
+    background-color: ;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.title{
+    text-align: center;
+    font-size: var(--title-font-size);
+    padding: ;
+    margin-bottom: ;
+    font-weight: var(--font-m);
+}
+.form-palindrome{
+
+}
+label{
+    color: ;
+}
+.palindrome-input{
+    border:none;
+}
