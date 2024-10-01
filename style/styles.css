@@ -1,5 +1,9 @@
 :root{
     /*Colors*/
+    --black-color:#2A2438;
+    --grey-color:#352F44;
+    --blue-color:#5c5470;
+    --light-blue-color:#DBd8e3;
     --white-color:#fff;
      /*fonts*/
      --body-font: sans-serif;
@@ -16,12 +20,17 @@
     /*tansition*/
     --tran-03:  0.3s ease all;
 }
+/*base*/
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     box-sizing: border-box;
     font-family: var(--body-font);
     font-size: var(--body-font-size);
     line-height: var(--body-line-height);
-    background-color: ;
+    background-color: var(--black-color);
 }
 .main{
     display: flex;
@@ -29,20 +38,42 @@ body{
     justify-content: center;
     width: 100%;
     min-height: 100vh;
+    flex-direction: column;
 }
 .title{
     text-align: center;
     font-size: var(--title-font-size);
-    padding: ;
-    margin-bottom: ;
+    padding: 10px;
+    margin-bottom: 20px 0;
+    color: var(--white-color);
     font-weight: var(--font-m);
 }
 .form-palindrome{
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: min(100vh,450px);
+    min-height: 100px;
+    background-color: var(--light-blue-color);
+    border-radius: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 2px 8px 0 2px 8px rgba(0, 0, 0, 0.175);
 }
 label{
-    color: ;
+    color: var(--blue-color);
+    margin-bottom: 20px;
+    font-size: ;
 }
 .palindrome-input{
     border:none;
+    text-align: center;
+    font-size: ;
+    margin: 10px;
+    width: ;
+    height: ;
+}
+.palindron-btn{
+
 }
