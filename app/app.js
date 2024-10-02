@@ -17,6 +17,9 @@ if(btn){
             result.innerText = `${input.value} is not a palindrome`;
         }
     })
+    btn.addEventListener("keyup",()=>{
+        result.add("hide");
+    })
 }
 
 
