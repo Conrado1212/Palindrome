@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,11 +19,15 @@
         <h1 class="title">Is it Palindrome?</h1>
         <div class="form-palindrome">
             <label for="text-input">Enter in the text to check for a palindrome</label>
-            <input type="text" class="palindrome-input" id="text-input" value>
+            <input type="text" class="palindrome-input" id="text-input">
             <button class="palindron-btn" id="check-btn">
-                <i class="fa-solid fa-paper-plane button_icon"></i>Submit
+                <i class="fa-solid fa-paper-plane button_icon"></i>Check
             </button>
-            <div class="result" id="result"></div>
+            <div class="result hide" id="result">
+                <p class="user-input">
+                    <strong></strong>
+                </p>
+            </div>
         </div>
         <div class="palindron-desc-div">
             <p class="palindron-desc"></p>

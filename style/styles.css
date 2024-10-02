@@ -8,6 +8,7 @@
      /*fonts*/
      --body-font: sans-serif;
      --body-font-size: 15px;
+     --label-font-size:18px;
      --body-line-height: 1.5;
      --title-font-size: 2.55rem;
       /*font-weights*/
@@ -64,16 +65,31 @@ body{
 label{
     color: var(--blue-color);
     margin-bottom: 20px;
-    font-size: ;
+    font-size: var(--label-font-size);
+    font-weight: var(--font-m);
 }
 .palindrome-input{
     border:none;
     text-align: center;
-    font-size: ;
+    font-size: var(--label-font-size);
     margin: 10px;
-    width: ;
-    height: ;
+    width: 250px;
+    height: 30px;
+    border-bottom: 2px solid var(--black-color);
+    background-color: var(--light-blue-color);
 }
 .palindron-btn{
-
+cursor:pointer;
+color: var(--light-blue-color);
+background-color: var(--black-color);
+border-radius: .5rem;
+padding: 1rem 1rem;
+text-decoration: none;
+margin-left: 15px;
+display: flex;
+gap: .75rem;
+align-items: center;
+}
+.palindron-btn:hover{
+    background-color: var(--grey-color);
 }
