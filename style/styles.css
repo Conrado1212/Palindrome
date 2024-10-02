@@ -9,6 +9,7 @@
      --body-font: sans-serif;
      --body-font-size: 15px;
      --label-font-size:18px;
+     --p-font-size:22px;
      --body-line-height: 1.5;
      --title-font-size: 2.55rem;
       /*font-weights*/
@@ -95,4 +96,14 @@ align-items: center;
 }
 .hide{
     display: none;
+}
+.result{
+    min-height: 50px;
+}
+.user-input{
+    margin-top: 10px;
+    text-align: center;
+    font-size: var(--p-font-size);
+    font-weight: var(--font-m);
+    color: var(--black-color);
 }

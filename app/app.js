@@ -7,10 +7,13 @@ if(btn){
         if(input.value === ""){
             alert("Please input a value");
         }else if(input.value.length === 1){
+            result.remove("hide");
             result.innerText = `${input.value} is a palindrome`;
         }else if(replace === [...replace].reverse().join("")){
+            result.remove("hide");
             result.innerText = `${input.value} is a palindrome`;
         }else{
+            result.remove("hide");
             result.innerText = `${input.value} is not a palindrome`;
         }
     })
