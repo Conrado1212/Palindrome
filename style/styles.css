@@ -93,3 +93,6 @@ align-items: center;
 .palindron-btn:hover{
     background-color: var(--grey-color);
 }
+.hide{
+    display: none;
+}
